@@ -1,0 +1,117 @@
+.resultCard {
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.statusIndicator {
+  text-align: center;
+  padding: var(--spacing-xl) 0;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: var(--spacing-xl);
+}
+
+.statusIndicator svg {
+  margin-bottom: var(--spacing-md);
+}
+
+.statusIndicator h2 {
+  font-size: 1.75rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.message {
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+.real {
+  color: var(--success);
+}
+
+.fake {
+  color: var(--danger);
+}
+
+.uncertain {
+  color: var(--warning);
+}
+
+.confidenceBar {
+  margin-bottom: var(--spacing-xl);
+}
+
+.confidenceHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-sm);
+  color: var(--text-secondary);
+  font-size: 0.9375rem;
+}
+
+.confidenceValue {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.progressBar {
+  height: 12px;
+  background-color: var(--bg-primary);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  transition: width 0.8s ease;
+  border-radius: var(--radius-lg);
+}
+
+.progress.real {
+  background-color: var(--success);
+}
+
+.progress.fake {
+  background-color: var(--danger);
+}
+
+.progress.uncertain {
+  background-color: var(--warning);
+}
+
+.analysisDetails {
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--border-color);
+}
+
+.analysisDetails h3 {
+  font-size: 1.125rem;
+  margin-bottom: var(--spacing-md);
+  color: var(--text-primary);
+}
+
+.detailRow {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--spacing-sm) 0;
+  border-bottom: 1px solid var(--bg-primary);
+}
+
+.detailKey {
+  color: var(--text-secondary);
+  text-transform: capitalize;
+}
+
+.detailValue {
+  color: var(--text-primary);
+  font-weight: 500;
+}
