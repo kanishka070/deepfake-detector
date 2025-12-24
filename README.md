@@ -101,8 +101,6 @@ npm run dev
 5. Open in browser
 Navigate to http://localhost:3000
 
----
-
 ### 📡 API Integration
 The frontend connects to the backend API at the configured endpoint.
 
