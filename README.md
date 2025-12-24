@@ -63,6 +63,19 @@ Backend Repository: [deepfake-detector-backend](https://github.com/kanishka070/d
 
 ---
 
+## 📸 Screenshots
+
+### Main Interface
+![Home Page](homepage.png)
+
+### Upload Video
+![Upload Interface](upload.png)
+
+### Detection Results
+![Results Page](result.jpg)
+
+---
+
 ## 🚀 How to Run
 
 ### Prerequisites
