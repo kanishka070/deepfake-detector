@@ -27,7 +27,7 @@ The frontend communicates with a FastAPI backend that runs deep learning models 
 - ⚡ Real-time deepfake detection
 - 📊 Confidence score display
 - 📱 Mobile responsive design
-- 🎨 Clean, modern UI
+- 🎨 Clean, modern UI with an interactive 3D Model
 - 🔄 Loading states and error handling
 
 ### How It Works
@@ -103,7 +103,7 @@ Navigate to http://localhost:3000
 
 ---
 
-📡 API Integration
+### 📡 API Integration
 The frontend connects to the backend API at the configured endpoint.
 
 Expected Backend Endpoint:
@@ -112,19 +112,21 @@ POST /predict
 Upload video for analysis.
 
 Request:
+```
 const formData = new FormData();
 formData.append('file', videoFile);
 
 axios.post('http://localhost:8000/predict', formData)
   .then(response => console.log(response.data));
-
+```
 Response:
+```
 {
   "prediction": "fake",
   "confidence": 0.87,
   "message": "Video analysis complete"
 }
-
+```
 ---
 
 ## 📂 Project Structure
