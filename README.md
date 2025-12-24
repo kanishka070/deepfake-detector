@@ -116,20 +116,22 @@ Response:
 
 ## 📂 Project Structure
 
+```
 deepfake-detector/
 ├── public/
 ├── src/
-│ ├── assets/
-│ ├── components/
-│ ├── App.jsx
-│ ├── App.css
-│ ├── main.jsx
-│ └── index.css
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
 ├── .env
 ├── index.html
 ├── package.json
 ├── vite.config.js
 └── README.md
+```
 
 ---
 
